@@ -1,0 +1,26 @@
+use bank
+
+Create table mobilestore(
+MobileID int identity primary key,
+MobName varchar(25) not null,
+MobPrice int not null,
+MobCategory varchar(25) not null,
+Quantity int not null,
+imagename varchar(20) not null
+)
+
+select * from mobilestore
+
+Insert into mobilestore(MobName,MobPrice,MobCategory,Quantity,imagename) values ('iPhone 13 Pro',250000,'iPhone',20,'iphone13_pro');
+Insert into mobilestore(MobName,MobPrice,MobCategory,Quantity,imagename) values ('iPhone 12',200000,'iPhone',10,'iphone12');
+Insert into mobilestore(MobName,MobPrice,MobCategory,Quantity,imagename) values ('iPhone SE',200000,'iPhone',10,'iphone_se');
+Insert into mobilestore(MobName,MobPrice,MobCategory,Quantity,imagename) values ('iPad Pro',200000,'iPhone',10,'ipad_pro');
+Insert into mobilestore(MobName,MobPrice,MobCategory,Quantity,imagename) values ('iPad Mini',200000,'iPhone',10,'ipad_mini');
+Insert into mobilestore(MobName,MobPrice,MobCategory,Quantity,imagename) values ('iPad Air',200000,'iPhone',10,'ipad_air');
+Insert into mobilestore(MobName,MobPrice,MobCategory,Quantity,imagename) values ('iPad',200000,'iPhone',10,'ipad');
+Insert into mobilestore(MobName,MobPrice,MobCategory,Quantity,imagename) values ('MacBook Pro',200000,'iPhone',10,'macbookpro');
+Insert into mobilestore(MobName,MobPrice,MobCategory,Quantity,imagename) values ('MacBook Air',200000,'iPhone',10,'macbook_air');
+Insert into mobilestore(MobName,MobPrice,MobCategory,Quantity,imagename) values ('MacBook',200000,'iPhone',10,'macbook');
+Insert into mobilestore(MobName,MobPrice,MobCategory,Quantity,imagename) values ('Mac Pro',200000,'iPhone',10,'mac_pro');
+Insert into mobilestore(MobName,MobPrice,MobCategory,Quantity,imagename) values ('Mac Mini',200000,'iPhone',10,'mac_mini');
+Insert into mobilestore(MobName,MobPrice,MobCategory,Quantity,imagename) values ('Mac',200000,'iPhone',10,'mac');

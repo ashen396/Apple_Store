@@ -1,0 +1,19 @@
+use Bank
+
+Select * from mobilestore
+
+Create Table MobileCustomer(
+CusId int identity primary key,
+FName varchar(25) not null,
+LName varchar(25) not null,
+CusAddress varchar(50),
+Street varchar(20),
+Province varchar(20),
+Mobile varchar(10) not null,
+Email varchar(50) not null,
+MobileName int references mobilestore(MobileID),
+Color varchar(15) not null,
+Capacity varchar(10)not null,
+Price int not null,
+);
+
